@@ -16,7 +16,7 @@
 <meta property="og:description" content="分享一个Linux shell截取字符串的小技巧 假如有这样一个字符串: 1&gt; str&#x3D;&quot;test.tar.gz&quot;   ${str%.*} 从右边开始删除str字符串,直到遇到第一个 . (. 也会删除) 12&gt; echo $&amp;#123;str%.*&amp;#125;&gt; test.tar ${str%%.*} 从右边开始删除str字符串,直到遇到最后一个">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-05-11T09:44:12.000Z">
-<meta property="article:modified_time" content="2021-05-11T10:02:44.775Z">
+<meta property="article:modified_time" content="2021-05-11T10:05:16.757Z">
 <meta property="article:author" content="qflz">
 <meta property="article:tag" content="shell">
 <meta name="twitter:card" content="summary">
@@ -191,6 +191,9 @@
 </ul>
 <blockquote>
 <p>注意 * 的位置哟</p>
+</blockquote>
+<blockquote>
+<p>当然还有其他的方法, 比如说<code>cut</code> <code>sed</code> 之类的命令</p>
 </blockquote>
 
       
