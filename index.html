@@ -178,24 +178,9 @@
         <p>分享一个Linux shell截取字符串的小技巧</p>
 <p>假如有这样一个字符串:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; str&#x3D;&quot;test.tar.gz&quot;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><p>${str%.*} 从右边开始删除str字符串,直到遇到第一个 . (. 也会删除)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; echo $&#123;str%.*&#125;</span><br><span class="line">&gt; test.tar</span><br></pre></td></tr></table></figure></li>
-<li><p>${str%%.*} 从右边开始删除str字符串,直到遇到最后一个 . (. 也会删除)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; echo $&#123;str%%.*&#125;</span><br><span class="line">&gt; test</span><br></pre></td></tr></table></figure></li>
-<li><p>${str#*.} 从左边开始删除str字符串,直到遇到第一个 . (. 也会删除)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; echo $&#123;str#*.&#125;</span><br><span class="line">&gt; tar.gz</span><br></pre></td></tr></table></figure></li>
-<li><p>${str##*.} 从左边开始删除str字符串,直到遇到最后一个 . (. 也会删除)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; echo $&#123;str##*.&#125;</span><br><span class="line">&gt; gz</span><br></pre></td></tr></table></figure></li>
-</ul>
-<blockquote>
-<p>注意 * 的位置哟</p>
-</blockquote>
-<blockquote>
-<p>当然还有其他的方法, 比如说<code>cut</code> <code>sed</code> 之类的命令</p>
-</blockquote>
-
+        
+          <a class="article-more-a" href="/2021/05/11/Linux-Shell%E6%88%AA%E5%8F%96%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E4%B8%80%E4%B8%AA%E5%B0%8F%E6%8A%80%E5%B7%A7/#more">more >></a>
+        
       
 
       
